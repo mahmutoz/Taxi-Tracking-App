@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "17178226094",
+    "project_id": "mobilsorgular-f7e8f",
+    "storage_bucket": "mobilsorgular-f7e8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17178226094:android:cd1580c5aa5b4fa812ec3f",
+        "android_client_info": {
+          "package_name": "com.yazlab.mobilsorgular"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17178226094-dkt3qfikuoeikr4htarks3uab8f0se23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-c559ep_DDgrcgPDbjV_5lYbQ2m8Gzy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17178226094-dkt3qfikuoeikr4htarks3uab8f0se23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
