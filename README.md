@@ -23,4 +23,4 @@ File name 2   : taxi+ zone lookup.csv
 ![](img/3.png) ![](img/4.png)
 
 ## Developers
-[Mahmut ÖZ](https://github.com/mahmutoz/) / [Ömer Gürbüz]()
+[Mahmut ÖZ](https://github.com/mahmutoz/) / [Ömer Gürbüz](https://github.com/ZeyMer1309)
