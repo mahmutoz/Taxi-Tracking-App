@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frgTip3">
+
+    <ImageView
+        android:src="@drawable/main_bg_5"
+        android:id="@+id/im1"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <Button
+        android:id="@+id/tip1"
+        android:layout_width="155dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="28dp"
+        android:text="Tip 3"
+        android:textAllCaps="false"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/im1" />
+
+    <TextView
+        android:id="@+id/aciklama"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Belirli bir günde en uzun seyahatin harita üstünde yolunu çiziniz (Gün seçilebilmeli). Başlangıç ve varış konumları lokasyonun merkezi kabul edip mesafeye göre bir yol bulunmalıdır."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tip1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Ay / Gün / Yıl olarak tarihi girin."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aciklama" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="12 /         / 20"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/gun"
+        android:layout_width="42dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/haritaci"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="52dp"
+        android:src="@drawable/map"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/gun" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

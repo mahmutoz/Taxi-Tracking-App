@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frgGiris">
+
+    <ImageView
+        android:src="@drawable/main_bg"
+        android:id="@+id/im1"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <ImageView
+        android:id="@+id/baslik"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="Mobil Sorgular"
+        android:src="@drawable/baslik"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <Button
+        android:id="@+id/tip1"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="36dp"
+        android:text="Tip 1"
+        android:textAllCaps="false"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/baslik" />
+
+    <Button
+        android:id="@+id/tip2"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="36dp"
+        android:text="Tip 2"
+        android:textAllCaps="false"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tip1" />
+
+    <Button
+        android:id="@+id/tip3"
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="36dp"
+        android:text="Tip 3"
+        android:textAllCaps="false"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tip2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

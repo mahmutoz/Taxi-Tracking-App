@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/frgGiris">
+
+    <fragment
+        android:id="@+id/frgGiris"
+        android:name="com.yazlab.mobilsorgular.frgGiris"
+        android:label="fragment_frg_giris"
+        tools:layout="@layout/fragment_frg_giris" >
+        <action
+            android:id="@+id/action_frgGiris_to_frgTip1"
+            app:destination="@id/frgTip1"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_frgGiris_to_frgTip2"
+            app:destination="@id/frgTip2"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_frgGiris_to_frgTip3"
+            app:destination="@id/frgTip3"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/frgTip1"
+        android:name="com.yazlab.mobilsorgular.frgTip1"
+        android:label="fragment_frg_tip1"
+        tools:layout="@layout/fragment_frg_tip1" />
+    <fragment
+        android:id="@+id/frgTip2"
+        android:name="com.yazlab.mobilsorgular.frgTip2"
+        android:label="fragment_frg_tip2"
+        tools:layout="@layout/fragment_frg_tip2" />
+    <fragment
+        android:id="@+id/frgTip3"
+        android:name="com.yazlab.mobilsorgular.frgTip3"
+        android:label="fragment_frg_tip3"
+        tools:layout="@layout/fragment_frg_tip3" />
+</navigation>

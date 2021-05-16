@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Yaz Lab</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_harita">Map</string>
+</resources>
